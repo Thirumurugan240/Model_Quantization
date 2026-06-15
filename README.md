@@ -1,4 +1,4 @@
-# Model Quantisation — Teaching Kit (Qwen2.5-0.5B, runs on CPU)
+# Model Quantisation — (Qwen2.5-0.5B, runs on CPU)
 
 A hands-on package for teaching **model quantisation** and running a quantised
 LLM **locally** for fast output. Built and tested on a **CPU-only Windows**
