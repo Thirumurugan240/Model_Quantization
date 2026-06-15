@@ -47,10 +47,3 @@ generation, runs offline & privately. INT8 ≈ 4× smaller than FP32 with
 negligible quality loss; INT4 ≈ 8× smaller with a small, usually unnoticeable
 drop.
 
-## Teaching flow (suggested)
-
-1. Walk through notebook sections 1–4 (concept, memory math, hand-quantise demo,
-   tool landscape).
-2. Live-run `quantize_qwen.py` so students see the model download + shrink.
-3. Live-run `run_quantized.py --chat` to show it generating locally.
-4. Show the GGUF/Ollama bonus section for the "fastest on CPU" option.
