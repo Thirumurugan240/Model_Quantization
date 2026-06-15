@@ -1,0 +1,16 @@
+# Core deep-learning + HuggingFace stack (CPU build of PyTorch is fine)
+torch>=2.2
+transformers>=4.44
+tokenizers>=0.22,<0.23
+accelerate
+safetensors
+sentencepiece
+
+# Quantisation engine that works on CPU (no NVIDIA GPU required)
+optimum-quanto>=0.2.4
+
+# OPTIONAL — for the "fastest on CPU" GGUF / llama.cpp demo in the notebook
+# Install only if you want to try the GGUF route:
+#   pip install llama-cpp-python huggingface_hub
+# llama-cpp-python
+# huggingface_hub
